@@ -1,0 +1,224 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/public1.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/cart.js"></script>
+</head>
+<body>
+<div id="cart-wrap">
+    <div id="hd">
+        <div id="hdtop">
+            <!--head的左半部分-->
+            <div class="hdtop-left">
+                <ul class="yt-tuiguang">
+                    <li class="index"><a href="#"><s></s>银泰首页</a></li>
+                    <li>|</li>
+                    <li class="yt-wechat"><a href="#"><s></s>微信<b></b></a><div class="wechat-pic"><img src="images/wechat.png"></div></li>
+                    <li>|</li>
+                    <li class="yt-phone"><a href="#"><s></s>手机银泰<b></b></a><div class="phone-pic"><img src="images/appphone.png" alt=""></div></li>
+                </ul>
+            </div>
+            <!--head的右半部分-->
+            <div class="hdtop-right">
+                <ul class="yt-xinxi">
+                    <li><span>Hi,欢迎来到银泰网! </span><a href="#">登录</a><a href="#">注册</a></li>
+                    <li>|</li>
+                    <li><a href="#">我的订单</a></li>
+                    <li>|</li>
+                    <li class="my-yt"><a href="">我的银泰<s></s></a><ul class="my-list">
+                        <li><a href="#">我的银泰</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的余额</a></li>
+                        <li><a href="#">我的银元</a></li>
+                        <li><a href="#">我的银泰卡</a></li>
+                        <li><a href="#">我的优惠券</a></li>
+                        <li><a href="#">我的积分</a></li>
+                    </ul></li>
+                    <li>|</li>
+                    <li><a href="">银泰卡</a></li>
+                    <li>|</li>
+                    <li><a href="">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--head的中间部分-->
+        <div id="hdmain">
+            <div class="yt-wrap">
+                <h1 class="ilogo"><a href="http://wwww.yintai.com"></a></h1>
+                <div class="pic-logo">
+                    <div>
+                        <div class="line"></div>
+                        <a><img src="images/1.gif"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bd">
+        <div class="bdwraper">
+            <div class="CartSteps">
+                <h2>购物车</h2>
+                <div class="sp-step">
+                    <span class="clickone click-one">查看购物袋<em>STEP 1</em></span>
+                    <span class="arrow">></span>
+                    <span class="clicktwo">填写订单信息<em>STEP 2</em></span>
+                    <span class="arrow">></span>
+                    <span class="clicksan">订单确认<em>STEP 3</em></span>
+                </div>
+            </div>
+            <div id="CommodityBox">
+                <div class="CommodityCate">
+                    <span class="th-chk">
+                        <input type="checkbox" checked="checked" class="checkAll">全选
+                    </span>
+                    <span class="th-item">商品</span>
+                    <span class="th-price">单价</span>
+                    <span class="th-amount">数量</span>
+                    <span class="th-sum">获得积分</span>
+                    <span class="th-op">操作</span>
+                </div>
+                <div class="CommodityBox">
+                    <div class="CommodityTitle">
+                        <div class="ActivitieHead">
+                            <h3>普通商品</h3>
+                        </div>
+                    </div>
+                    <!--<div class="CommodityList">
+                        <div class="AProduct areacolor cf">
+                            <div class="category th-chk">
+                                <input type="checkbox" checked="checked">
+                            </div>
+                            <div class="category th-item">
+                                <div class="property cf">
+                                    <div class="pro-img">
+                                        <a href="###"><img src="images/cartpic.jpg" alt=""></a>
+                                    </div>
+                                    <p class="pro-title">
+                                        <a href="###">【自营】KENZO paris玫红色纯棉虎头刺绣女士卫衣,2SW7054XJ  30,L</a>
+                                    </p>
+                                    <div class="pro-pro">
+                                        <p class="pro-check">
+                                            <span>
+                                                颜色：
+                                                <b>玫瑰红</b>
+                                            </span>
+                                            <span>
+                                                尺码：
+                                                <b>L</b>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category th-price">
+                                <div class="pro-price">
+                                    <strong>￥<em>1899</em></strong>
+                                </div>
+                            </div>
+                            <div class="category th-amount">
+                                <div class="pro-number">
+                                    <a href="javascript:;" class="nums-red disable">-</a>
+                                    <input type="text" class="pro-nums" value="1" lastvalue="1">
+                                    <a href="javascript:;" class="nums-add">+</a>
+                                </div>
+                            </div>
+                            <div class="category th-sum">1899</div>
+                            <div class="category th-op">
+                                <div class="decidetime">
+                                    <a href="javascript:;" class="pro-collect">移入收藏</a>
+                                </div>
+                                <div class="decidetime">
+                                    <a href="javascript:;" class="pro-remove">移入收藏</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>-->
+                    <!--<div class="CommodityList">
+                        <div class="AProduct areacolor cf">
+                            <div class="category th-chk">
+                                <input type="checkbox" checked="checked">
+                            </div>
+                            <div class="category th-item">
+                                <div class="property cf">
+                                    <div class="pro-img">
+                                        <a href="###"><img src="images/cartpic.jpg" alt=""></a>
+                                    </div>
+                                    <p class="pro-title">
+                                        <a href="###">【自营】KENZO paris玫红色纯棉虎头刺绣女士卫衣,2SW7054XJ  30,L</a>
+                                    </p>
+                                    <div class="pro-pro">
+                                        <p class="pro-check">
+                                            <span>
+                                                颜色：
+                                                <b>玫瑰红</b>
+                                            </span>
+                                            <span>
+                                                尺码：
+                                                <b>L</b>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category th-price">
+                                <div class="pro-price">
+                                    <strong>￥<em>1899</em></strong>
+                                </div>
+                            </div>
+                            <div class="category th-amount">
+                                <div class="pro-number">
+                                    <a href="javascript:;" class="nums-red disable">-</a>
+                                    <input type="text" class="pro-nums" value="1" lastvalue="1">
+                                    <a href="javascript:;" class="nums-add">+</a>
+                                </div>
+                            </div>
+                            <div class="category th-sum">1899</div>
+                            <div class="category th-op">
+                                <div class="decidetime">
+                                    <a href="javascript:;" class="pro-collect">移入收藏</a>
+                                </div>
+                                <div class="decidetime">
+                                    <a href="javascript:;" class="pro-remove">移入收藏</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>-->
+                </div>
+                <div class="PayofTable" id="CheckLayer">
+                    <div class="PayofOne cf">
+                        <div class="RegretOption">
+                            <div class="th-chk">
+                                <input type="checkbox" checked="checked" class="checkAll">全选
+                            </div>
+                            <a href="javascript:;" id="ClearCartBtn">删除选中的商品</a>
+                            <a href="javascript:;">继续购物</a>
+                        </div>
+                    </div>
+                    <div class="PayofSan cf"></div>
+                    <div class="PayofFou cf">
+                        <div class="Accountsbox">
+                            <input type="submit" class="Accounts" value="结算">
+                        </div>
+                        <div class="AccountsNum">
+                            结算金额：
+                            <i class="cue">(已免运费)</i>
+                            <strong class="pay">￥1899</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

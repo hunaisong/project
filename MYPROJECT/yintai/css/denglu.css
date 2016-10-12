@@ -1,0 +1,89 @@
+/*头部部分*/
+#zhuce-hd{width: 1263px;height: 116px;margin: 0 auto}
+#zhuce-hd .logo{width: 220px;height: 76px;background: url("../images/header-20160223.gif") 0 0 no-repeat;float: left;margin-left: 35px;margin-top: 20px}
+#zhuce-hd h2{float: left;color:red;font-size: 28px;font-weight: normal;margin: 70px 0 0 0}
+#zhuce-hd .list{float: right;margin-top: 57px}
+#zhuce-hd .list li{background: url("../images/footer-01.png") 0 0 no-repeat;width: 170px;height: 50px;float: left}
+#zhuce-hd .list .first{background-position:0 -84px;padding-left: 40px }
+#zhuce-hd .list .second{background-position:0 -161px;padding-left: 40px }
+#zhuce-hd .list .third{background-position:0 -233px;padding-left: 48px }
+#zhuce-hd .list .p1{font-size: 17px;}
+#zhuce-hd .list .p2{color: #ccc;}
+#zhuce-hd .list .p1 span{color: red}
+/*中间部分*/
+#zhuce-main{height: 572px;background: #f1f1f1;}
+#zhuce-main .yt-pic{float: left;margin: 63px 0 0 35px;width: 780px;height: 460px;overflow: hidden}
+.yt-denglu{width: 320px;height: 460px;float: left;margin: 63px 0px 0px 76px;background: #fff;}
+.card{width: 320px;height: 45px;border-bottom: 1px solid #ccc;}
+.card li{float: left;width: 160px;height: 45px;line-height: 45px;text-align: center;font-size: 16px;cursor: pointer}
+.card li.active{background:#e5004f;color:#fff;}
+.tips{width: 280px;height: 50px;line-height: 50px;text-align: right}
+.tips .tips-login{color: red}
+.yt-denglu-list{width: 280px;height:198px;margin: 0 auto}
+.yt-denglu-list input{width: 280px;height: 42px;padding-left: 5px;border: 1px solid #ccc;background: #f5f5f5;border-radius: 3px}
+.tishi{height: 22px;padding-left: 3px;line-height: 22px;}
+.yt-denglu-list .yanzheng input{width: 112px;}
+.client-agree{width: 280px;height: 35px;margin: 0 auto}
+.login-wrap{float: left;height: 20px;padding-right:10px; }
+.auto{vertical-align: middle;margin-right: 5px;}
+.advice{font-weight: 400;color:#e5004f;padding-right: 10px; }
+.forgot a{color:#999;font-size: 10px; }
+.login-btn{width:280px;height: 40px;margin: 0 auto;}
+.btn{border: none;width: 100%;height: 40px;line-height: 40px;text-align: center;cursor: pointer;font-size: 16px;color: #fff;border-radius: 2px;vertical-align: top;background-color: #e5004f;outline: none;font-family: "\5fae\8f6f\96c5\9ed1"}
+.btn:hover{background: #f30065;}
+.cooperate{padding-top: 20px;clear: both;}
+.cooperate-ui{position: relative;height: 24px;text-align: center;}
+.cooperate-title{position: relative;z-index: 2;height: 24px;padding: 0 5px;font-weight: 400;font-size: 12px;text-align: center;background-color: #fff;color: #999;display: inline-block;}
+.cooperate-ui .middle-line{width: 100%;position: absolute;z-index: 1;top: 10px;height: 1px;overflow: hidden;background-color: #ccc;}
+.cooperate-list{clear: both;line-height: 24px;text-align: center;color: #999;}
+.cooperate-list a{display: inline-block;height: 20px;margin: 0 5px;color: #999;}
+
+/*扫描二维码登录部分*/
+.scancode-login{width:280px;padding:20px;margin: 0 auto;}
+.qrcode-login{clear: both;}
+.qrcode-login{text-align: center;
+font-size: 14px;padding-top: 40px;}
+.qrcode-main{position: relative;height:145px;margin:35px 0 20px;}
+.code-img{position: absolute;
+width: 145px;height:145px;left: 70px;}
+.qrcode-help{opacity: 0;filter:alpha(opacity=0);position:absolute;right:0px;width:135px;height: 175px;margin-top: -15px;background:url("../images/header-login-phone.png") 0 0 no-repeat;}
+.qrcode-desc{margin-bottom:20px;text-align:center;color: #ddd;}
+.qrcode-desc a{font-size: 14px;color:#666;}
+.qrcode-tip{width: 140px;margin: 0 auto;padding: 3px 0;text-align: center;border: 1px solid #e5004f;color: #e5004f;}
+
+/*底部部分*/
+#zhuce-foot{height: 204px;background: #fff;}
+#zhuce-foot .yt-contact{width: 854px;height: 17px;margin: 40px auto}
+#zhuce-foot .yt-contact li{float: left;padding: 5px}
+#zhuce-foot .p1{width: 545px;margin: 0 auto}
+#zhuce-foot .p2{width: 217px;margin: 10px auto}
+
+.brand{width: 317px;margin: 0 auto}
+.brand a{margin: 0 3px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

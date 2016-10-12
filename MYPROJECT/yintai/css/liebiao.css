@@ -1,0 +1,719 @@
+/*单独的样式重置*/
+.p-crumbs ul li.p-crumbsLink, .p-closeIcon span, .p-closeIconActive span, .p-filterShow a, .p-filterHide a, .p-listNavActiveOD span, .p-listVHTop em, .p-listVHMainIn span a, .p-listPicBtnLeftActive, .p-listPicBtnRightActive, .p-listPicLeftBtn a, .p-listPicLeftBtnDis a, .p-listPicRightBtn a, .p-listPicRightBtnDis a, .p-filterSH p a, .p-bSearch button, .p-listNavLeft, .p-listNavRight, .p-crumbs ul li.p-crumbsLink a.p-crumbsClose, .p-listNavActiveTDown div, .p-listVHActive div{
+    background: url("../images/p-allIcon-20121107.gif") no-repeat;
+}
+.p-crumbs, .p-crumbsRE, .p-filterDivideLe, .p-filterOperate, .p-filterDivideLe dl dt, .p-filterDivideLe dl dd, .p-filterDivideLe dl dd ul li, .p-filterChooseMain dl dd ul li h5, .p-filterChooseMain dl dd ul li a, .p-filterDivideLe, .p-filterChooseMain dl dd ul li a, .p-filterDivideLe dl dt, .p-filterDivideLe dl dd, .p-filterDivideLe dl dd ul li{
+    float: left;
+    display: inline;
+}
+
+.p-crumbs, .p-crumbsRE, .p-filterDivideLe, .p-filterOperate, .p-filterDivideLe dl dt, .p-filterDivideLe dl dd, .p-filterDivideLe dl dd ul li, .p-filterChooseMain dl dd ul li h5, .p-filterChooseMain dl dd ul li a{
+    display: inline;
+}
+.p-listNavVH .p-listNavLeft, .p-listNavVH .p-listNavRight{
+    display: none;
+}
+/*单独的样式开始*/
+#bd{
+    width: 1190px;
+    margin: 0 auto}
+.t-crumbs{width: 100%;
+    height: 40px;
+    padding: 15px 0;}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color:inherit;}
+.t-crumbs td{
+    padding: 5px 15px;
+    width:40px;
+    text-align: center;
+    font:12px/1.5"微软雅黑"}
+.t-crumbs td .xuan{
+    white-space: nowrap;
+    min-height: 7px;
+    padding: 8px;
+    position: relative;
+    z-index: 3;
+}
+.postip{
+    position: absolute;
+    width: 170px;
+    background: #535353;
+    top: 30px;
+    line-height: 25px;
+    padding: 10px;
+    left: 0;
+    box-shadow: 2px 2px 2px #535353;
+    display: none;
+    z-index: 9999;
+}
+.t-crumbs td a{
+    white-space: nowrap;
+    zoom: 1;
+}
+.postip a{
+    margin: 0 5px;
+    float: left;
+    white-space: nowrap;
+}
+.tipson a,.postip a{
+    color: #fff;
+}
+a{
+    color: #666;
+    text-decoration: none
+}
+.t-crumbs td.next .xuan b,.t-crumbs td.first .xuan b{
+    width: 8px;
+    height: 5px;
+    display: inline-block;
+    background:url("../images/xuan-bg.jpg");
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.t-crumbs td.kinds{
+    width: 1010px;
+}
+.t-crumbs td.next{
+    padding: 0 15px;
+    width: auto;
+    background: url(../images/shu-line.jpg) no-repeat left 18px;
+}
+.t-crumbs td.next .xuan{
+    white-space: nowrap;
+    min-height: 7px;
+    padding: 8px;
+    position: relative;
+    z-index: 3;
+}
+.cf{
+    zoom:1;
+}
+.t-crumbs .p-filterDivideLe{
+    width: auto;
+    padding: 5px 0 0 0;
+}
+.xuan .p-filterDivideLe dl dd ul{
+    overflow: visible;
+}
+.p-filterDivideLe ul{
+    height: 30px;
+    overflow: hidden;
+}
+.t-crumbs .p-filterDivideLe dl dd ul li{
+    padding-bottom: 5px;
+}
+.p-filterChooseMain dl dd ul li{
+    height: 20px;
+    line-height: 20px;
+    margin-right: 0;
+}
+.p-filterDivideLe, .p-filterDivideLe dl dd, .p-filterDivideLe dl dd ul li{
+    float: left;
+    display: inline;
+    margin-right: 18px;
+}
+.p-filterDivideLe dl dd ul li{
+    white-space: nowrap;
+}
+.t-crumbs .p-filterDivideLe li strong{
+    color: #e4004f;
+}
+.p-filter{
+    border-top: 1px solid #000;
+    padding-bottom: 10px;
+}
+.p-filterMain{
+    background: #fff;
+    border-bottom: 2px solid #000;
+    padding-top: 5px;
+}
+.p-filterDivide{
+    padding-bottom: 2px;
+}
+form{
+    display: block;
+}
+/*分类开始*/
+.p-filterCommon{
+    position: relative;
+    padding: 0 30px;
+    border-bottom: solid 1px #e1e1e1;
+}
+.p-filterDivideLe{
+    width: 1110px;
+    padding-top: 12px;
+}
+.p-filterDivideLe dl dt{
+    width: 70px;
+    color: #333;
+    font: 14px/1.5 "微软雅黑";
+}
+.p-filterDivideLe dl dd{
+    width: 960px;
+}
+.p-filterDivideLe ul{
+    height: 30px;
+    overflow: hidden;
+}
+.p-filterDivideLe dl dd ul li input{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.p-radio{
+    visibility: hidden;
+}
+.cf:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.p-filterOperate{
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    z-index: 3;
+    width: 45px;
+    height: 20px;
+}
+.p-filterOperate span a{
+    display: block;
+    padding-right: 17px;
+    height: 20px;
+    overflow: hidden;
+    font: 14px/14px "微软雅黑";
+    outline: none;
+}
+.p-filterShow a{
+    background-position: 32px -161px;
+}
+/*分类结束*/
+
+/*品牌开始*/
+.p-filterBrand{
+    position: relative
+}
+.p-filterDivideLe{
+    width: 1110px;
+    padding-top: 12px;
+}
+ul.J-BrandSearchList{
+    height: auto;
+    overflow: visible;
+}
+.p-filterBrandMain dl dd ul li{
+    width: 175px;
+    padding-right: 17px;
+    overflow: hidden;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 0;
+}
+.p-filterDivideLe dl dd ul li label span{
+    font-size: 10px;
+}
+.p-filterOperate{
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    z-index: 3;
+    width: 45px;
+    height: 20px;
+}
+.p-crumbsRE{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 3;
+    width: 45px;
+    height: 20px;
+}
+.p-crumbsRE span a{
+    display: block;
+    font: 14px/1.0 "微软雅黑";
+    padding-right: 17px;
+    height: 20px;
+}
+.p-crumbsRE span a.p-crumbsR, .p-crumbsRE span a.p-crumbsE, .p-crumbsRE span a.p-crumbsR:hover, .p-crumbsRE span a.p-crumbsE:hover{
+    background: url("../images/p-jia.jpg") 0 0 no-repeat;
+    outline: none;
+}
+.p-crumbsRE span a.p-crumbsE{
+    background-position: 32px 2px;
+}
+/*品牌结束*/
+
+/*价格开始*/
+.p-filterDif{
+    border-bottom: none;
+}
+.p-filterDivideLe{
+    width: 1110px;
+    padding-top: 12px;
+}
+/*价格结束*/
+
+/*浮动导航开始*/
+.p-listNavActiveOD a:hover{
+    color: #e5004f;
+}
+.p-listNavVH{
+    /*position: relative;*/
+    z-index: 2;
+    /*top: 6px;*/
+    height: 35px;
+    background: #5c5c5c;
+    font: 14px/1.0 "微软雅黑";
+    overflow: hidden;
+}
+.p-listNavLeft, .p-listNavRight{
+    /*display: block;*/
+    height: 35px;
+    width: 4px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+}
+.p-listNavLeft{
+    left: -4px;
+    background-position: left -485px;
+}
+.p-listNavRight{
+    right: -4px;
+    background-position: -4px -485px;
+}
+.p-listNav{
+    height: 35px;
+    position: absolute;
+}
+.p-listNav ul li{
+    float: left;
+    display: inline;
+    cursor: pointer;
+    border-right: solid 1px #747474;
+}
+.p-listNav ul li div{
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+}
+.p-listNavDefaultA div, .p-listNavActiveOA div, .p-listNavActiveOA, .p-listNavActiveTA{
+    background: #e5004f;
+}
+.p-listNav ul li div a{
+    padding: 0 20px;
+    color: #fff;
+}
+.p-listNav ul li.p-listNavHaiTao div{
+    padding: 0;
+    float: left;
+    /* width: 105px; */
+    height: 35px;
+}
+.p-listNav ul li.p-listNavHaiTao div a{
+    /* display: block; */
+    height: 35px;
+    padding: 0 16px 0 30px;
+}
+.p-listNav ul li.p-listNavHaiTao div a i{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    background: #000 url(../images/pro-list-change.jpg) 0 0 no-repeat;
+}
+.p-listNav ul li.p-listNavHaiTao div a:hover i{
+    background-position: -13px 0;
+}
+.p-listNav ul li.p-listNavHaiTao div.miaohuo{
+    background: url(../images/miao.jpg) 64px 5px no-repeat;
+    width: 105px;
+}
+.p-listNav ul li.p-listNavSearch{
+    height: 23px;
+    padding: 6px;
+    border-right: none;
+}
+.p-listNavSearchInput{
+    width: 160px;
+    height: 23px;
+    margin: 0;
+    line-height: 23px;
+    border: none;
+    display: block;
+    overflow: hidden;
+    padding-left: 5px;
+    color: #777777;
+    font-size: 12px;
+    float: left;
+}
+.p-listNavSearchBtn, .p-listNavSearchBtnC{
+    width: 38px;
+    height: 23px;
+    background: url("../images/qr.jpg");
+    border: none;
+    text-indent: -9999em;
+    cursor: pointer;
+    float: left;
+}
+.p-listNavSearchBtn{
+    background-position: left top;
+}
+.p-listNavSearchByColor{
+    float: right;
+    height: 35px;
+    background: #fff;
+    width: 124px;
+    text-align: center;
+    font: 12px/1.0 "微软雅黑";
+}
+.p-listNavSearchByColor a{
+    line-height: 35px;
+    display: block;
+}
+.p-listNavSearchByColor a:hover{
+    background: #e5004f;
+    color: #fff;
+}
+.p-listNavFBtn{
+    float: right;
+    height: 15px;
+    padding: 10px;
+    color: #fff;
+}
+.p-listNavFBtn a.p-listNavFBtn-l, .p-listNavFBtn a.p-listNavFBtn-r, .p-listNavFBtn div{
+    float: left;
+    margin: 0 5px;
+}
+.p-listNavFBtn a.p-listNavFBtn-l{
+    background: url(../images/f-left.jpg) left;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+.p-listNavFBtn a.p-listNavFBtn-l:hover{
+    background-position: -15px 0;
+}
+.p-listNavFBtn em{
+    color: #e5004f;
+}
+.p-listNavFBtn a.p-listNavFBtn-r{
+    background: url(../images/f-right.jpg) left;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+.p-listNavFBtn a.p-listNavFBtn-r:hover{
+     background-position: -15px 0;
+}
+/*浮动导航结束*/
+/*列表大框架主体*/
+.p-list{
+    margin-top: 18px;
+}
+/*商品列表*/
+/*单独商品的样式*/
+.p-listInfo{
+    width: 228px;
+    border: 2px solid #f4f4f4;
+    float: left;
+    display: inline;
+    margin: 3px;
+    position: relative;
+    background: #fff;
+}
+/*鼠标滑过时候，商品样式改变的属性*/
+.p-listInfoOn{
+    box-shadow: 0 0 5px #ddd;
+    border: 2px solid #e5004f;
+    position: relative;
+    z-index: 1;
+}
+/*滑过时候样式结束*/
+
+/*大图的样式开始*/
+.p-listImgBig{
+    margin-bottom: 10px;
+    position: relative;
+}
+.p-listImgBig a{
+    height: 304px;
+}
+.p-listImgBig a img{width: 228px;height: 304px;}
+/*大图样式结束*/
+
+/*小图的样式开始*/
+.p-listImgSmall{
+    position: relative;
+    margin-bottom: 10px;
+    width: 228px;
+    height: 57px;
+}
+.listImgSmallP, .listImgSmallN, .p-listImgSmall span, .p-listImgSmall a{
+    width: 4px;
+    height: 8px;
+    overflow: hidden;
+}
+.listImgSmallP, .listImgSmallN{
+    position: absolute;
+    top: 26px;
+}
+.listImgSmallP{
+    left: 4px;
+}
+.p-listImgSmall span, .p-listImgSmall a{
+    display: block;
+}
+.p-listPicLeftBtn a{
+    background-position: left -369px;
+}
+.p-listPicBtnDis a{
+    opacity: .3;
+    /*filter: alpha(opacity=30);*/
+    cursor: default;
+}
+.listImgSmallN{
+    right: 4px;
+}
+.listImgSmallP, .listImgSmallN{
+    position: absolute;
+    top: 26px;
+}
+.p-listPicRightBtn a{
+    background-position: -4px -369px;
+}
+.p-listScroller{
+    width: 208px;
+    height: 57px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.p-listImgSmall ul{
+    /*width: 208px;*/
+    margin: 0 auto;
+}
+.p-listImgSmall ul li{
+    float: left;
+    margin: 0 4px;
+    display: inline!important;
+}
+.p-listImgSmall ul li a{
+    border: 1px solid #e2e2e2;
+    width: 40px;
+    height: 53px;
+    padding: 1px;
+    overflow: hidden;
+}
+.p-listImgSmall ul li a:hover{
+    border: 1px solid #e5004f;
+}
+.p-listImgSmall ul li a img{
+    width: 40px;
+    height: 53px;
+}
+.p-listTxt, .p-listPrice, .p-listAddInfo{
+    padding: 0 12px;
+}
+.p-listPrice{
+    padding-bottom: 5px;
+}
+.p-listPrice strong{
+    color: #e5004f;
+    padding-right: 20px;
+}
+/*商品中文本信息*/
+.p-listTxt{
+    margin-bottom: 5px;
+    height: 41px;
+    overflow: hidden;
+}
+.p-listTxt p{
+    line-height: 1.7em;
+}
+.p-listTxt p a:hover{
+    color: #e5004f
+}
+.p-listInfo .p-listAddInfo{
+    display: none;
+}
+/*鼠标滑过时候，商品商店名称样式属性*/
+.p-listInfoOn .p-listAddInfo{
+    display: block;
+    position: absolute;
+    left: -2px;
+    z-index: 10;
+    box-shadow: 0 4px 4px #DDD;
+    width: 204px;
+    background: #fff;
+    border: 2px solid #e5004f;
+    border-top: none;
+    height: auto;
+}
+.p-preferentialInfo{
+    color: #e5004f;
+    padding-bottom: 8px;
+}
+.p-preferentialInfo a, .p-preferentialInfo a span{
+    color: #e5004f;
+}
+.p-storeEntrance{
+    padding-bottom: 10px;
+    position: relative;
+}
+.p-storeEntrance a{
+    display: block;
+    width: 184px;
+    height: 30px;
+    background: #2e2e2e;
+    color: #fff;
+    font: 14px/2.1 "微软雅黑";
+    text-align: center;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.p-storeEntrance a:hover{
+    opacity: 0.8;
+}
+
+/*分页部分开始*/
+.p-page{
+    padding: 20px 0;
+}
+.p-page .b-page{
+    text-align: right;
+}
+.b-page{
+    letter-spacing: -3px;
+}
+.b-page:after{
+    display: block;
+    height: 0;
+    clear: both;
+    font-size: 0;
+    content: ".";
+    visibility: hidden;
+}
+.b-page a, .b-page span, .b-page em, .b-page input, .b-page button{
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: 0;
+    vertical-align: bottom;
+}
+.b-page em, .b-page .c-btn, .b-page em .pageinput{
+    padding: 0 5px;
+    font: 14px/35px "微软雅黑";
+}
+.b-page .b-p-up, .b-page .b-p-down, .b-page .b-p-first, .b-page .b-p-last{
+    width: 35px;
+    height: 35px;
+    background: url(../images/b-page-bg.jpg) no-repeat;
+    box-shadow: 0 2px 2px #DDDDDD;
+    font: 14px/35px "微软雅黑";
+}
+.b-page .b-p-first{
+    background-position: 0 0;
+}
+.b-page .b-p-first, .b-page .b-p-up{
+    margin-right: 8px;
+}
+.b-pageNum{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 0 2px 2px #DDDDDD;
+    font: 14px/35px "微软雅黑";
+}
+.b-pageNum:hover{
+    background: #e5004f;
+    color: #fff;
+    box-shadow: 0 2px 2px #DDDDDD;
+    font: 14px/35px "微软雅黑"
+}
+.b-pageNumActive{
+    color: #fff;
+    background: #e5004f;
+    box-shadow: 0 2px 2px #DDDDDD;
+    font: 14px/35px "微软雅黑";
+}
+.b-pageOmission{
+    margin-left: 4px;
+    margin-right: 9px;
+}
+.b-page .b-p-down{
+    background-position: 0px -105px;
+}
+.b-page em .pageinput{
+    width: 40px;
+    height: 33px;
+    border: 1px solid #fff;
+    margin: 0 2px;
+    line-height: 33px;
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.b-page .c-btn{
+    margin-left: 10px;
+    width: 80px;
+    height: 35px;
+    background: url(../images/b-page-btn.jpg);
+    border: none;
+    text-indent: -9999em;
+    vertical-align: middle;
+    margin-top: -2px;
+    box-shadow: 0 2px 2px #DDDDDD;
+    cursor:pointer;
+
+}
+.b-page .c-btn:hover{
+    background-position: 0 -35px;
+}
+/*浏览历史部分开始*/
+.p-listVH{
+    width: 1178px;
+    height: 35px;
+    border-bottom: solid 2px #2d2d2d;
+    font: 14px/35px "微软雅黑";
+    padding-left: 12px;
+}
+.p-listVHMain{
+    width: 1190px;
+}
+.p-listVHMain{
+    vertical-align:middle;
+
+}
+/*底部推荐区域*/
+.tuijian{width: 1190px;height:173px;margin:10px auto;border: 1px solid #ccc;}
+.tuijian .tuijian-pic{width: 396px;height: 173px;float: left}
+.tuijian .tuijian-pic img{width: 100%;height: 100%;}
+
+/*返回顶部样式*/
+#p-goTop{
+    width: 31px;
+    height: 42px;
+    position: fixed;
+    right: 10px;
+    bottom: 40%;
+    display: none;
+}
+#p-goTop a{
+    display: block;
+    width: 31px;
+    height: 42px;
+    background: url("../images/p-go-top-n.png") 0 0 no-repeat;
+}
+#p-goTop a:hover{
+    background-position: 0 -42px;
+}
+

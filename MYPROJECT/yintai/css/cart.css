@@ -1,0 +1,382 @@
+#bd{
+    width: 980px;
+    margin: 0 auto;
+    clear: both;
+}
+.bdwraper{
+    width: 940px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.CartSteps{
+    height: 80px;
+    margin-bottom: 10px;
+}
+.CartSteps h2{
+    float: left;
+    width: 112px;
+    height: 80px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.CartSteps h2, .sp-step, span.click-one, span.click-two, span.click-san {
+    background: url(../images/shopping-head.jpg) 0 0 no-repeat;
+}
+.CartSteps .sp-step{
+    padding-top: 3px;
+    float: right;
+    margin-right: 10px;
+    display: inline;
+}
+.CartSteps .sp-step{
+    background-position: -158px 5px;
+}
+.CartSteps .clickone{
+    width: 76px;
+}
+.CartSteps .sp-step span{
+    float: left;
+    vertical-align: top;
+    text-align: center;
+    font-family: "\5fae\8f6f\96c5\9ed1";
+    color: #999;
+}
+.CartSteps span.click-one, .CartSteps span.click-two, .CartSteps span.click-san{
+    font-size: 14px;
+    color: #e4004d;
+}
+.CartSteps span.click-one{
+    background-position: -158px -52px;
+}
+.CartSteps .sp-step span em{
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #ccc;
+}
+.CartSteps span.click-one em, .CartSteps span.click-two em, .CartSteps span.click-san em{
+    padding-top: 18px;
+    color: #e4004d;
+}
+.CartSteps span.arrow{
+    display: block;
+    overflow: hidden;
+    width: 0;
+    text-indent: -999px;
+}
+.CartSteps .clicktwo{
+    width: 402px;
+}
+.CartSteps .clicksan{
+    width: 60px;
+}
+.CommodityCate{
+    height: 30px;
+    background-color: #666;
+}
+.CommodityCate span{
+    float: left;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 700;
+    overflow: hidden;
+    color: #fff;
+}
+.CommodityCate span input{
+    vertical-align: middle;
+}
+.CommodityCate .th-chk{
+    width: 103px;
+    padding-left: 27px;
+}
+.CommodityCate .th-item{
+    width: 372px;
+}
+.CommodityCate .th-price{
+    width: 130px;
+}
+.CommodityCate .th-amount{
+    width: 66px;
+    padding-right: 60px;
+    text-align: center;
+}
+.CommodityCate .th-sum{
+    width: 90px;
+}
+.CommodityCate .th-op{
+    width: 92px;
+}
+.CommodityBox{
+    width: 940px;
+    margin-bottom: 10px;
+}
+.CommodityTitle{
+    clear: both;
+    position: relative;
+    height: 30px;
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+    background-color: #eee;
+}
+.CommodityTitle .ActivitieHead{
+    position: absolute;
+    top: -1px;
+    left: -10px;
+    height: 40px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.CommodityTitle .ActivitieHead h3{
+    line-height: 30px;
+    color: #666;
+    padding: 0 32px 0 10px;
+    font-size: 12px;
+}
+.CommodityList{
+    clear: both;
+    display: block;
+    position: relative;
+    zoom: 1;
+    width: 938px;
+    border: 1px solid #e2e2e2;
+    border-top: none;
+}
+.CommodityList .AProduct{
+    position: relative;
+    padding: 15px 0 0;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #fff;
+    overflow: hidden;
+}
+.CommodityList .areacolor{
+    background-color: #f9f9f9;
+}
+.CommodityList .category{
+    float: left;
+}
+.CommodityList .th-chk{
+    width: 40px;
+    height: 62px;
+    padding-left: 26px;
+}
+.CommodityList .th-item{
+    width: 435px;
+}
+.CommodityList .property{
+    width: 425px;
+    margin-bottom: 10px;
+}
+.CommodityList .property .pro-img{
+    float: left;
+    width: 45px;
+    height: 60px;
+    margin-right: 10px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    background-color: #fff;
+}
+.CommodityList .property .pro-img img{
+    vertical-align: top;
+    width: 45px;
+    height: 60px;
+}
+.CommodityList .property .pro-title, .property .pro-pro{
+    float: left;
+    width: 328px;
+    position: relative;
+}
+.CommodityList .property .pro-title a{
+    color: #666;
+}
+.CommodityList .property .pro-check{
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 328px;
+}
+.CommodityList .th-price{
+    width: 130px;
+}
+.CommodityList .pro-price{
+    line-height: 20px;
+}
+.CommodityList .pro-price strong{
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    color: #e5004f;
+    padding-right: 8px;
+}
+.CommodityList .th-amount{
+    width: 66px;
+    height: 20px;
+    padding-right: 60px;
+    text-align: center;
+}
+.CommodityList .pro-number{
+    position: relative;
+    width: 64px;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+}
+.CommodityList .pro-number a{
+    position: absolute;
+    width: 16px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    border: 1px solid #dfdfdf;
+    background-color: #eee;
+    color: #666;
+}
+.CommodityList .pro-number input{
+    position: absolute;
+    left: 17px;
+    top: 0;
+    z-index: 1;
+    width: 28px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #666;
+}
+.CommodityList .pro-number a.nums-red{
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.CommodityList .pro-number a.nums-add{
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.CommodityList .th-sum{
+    width: 90px;
+    line-height: 20px;
+}
+.CommodityList .th-op{
+    width: 91px;
+}
+.CommodityList .decidetime .pro-collect, .decidetime .pro-remove, .decidetime .pro-alter{
+    display: block;
+    width: 52px;
+    height: 18px;
+    padding-left: 16px;
+    color: #666;
+    background: url(../images/shopping-icon.png) 0 -177px no-repeat;
+}
+.CommodityList .decidetime{
+    position: relative;
+}
+.CommodityList .decidetime .pro-collect{
+    background-position: 0 -92px;
+}
+.CommodityList .decidetime .pro-remove{
+    background-position: 1px -125px;
+}
+.PayofTable{
+    width: 938px;
+    margin: 10px 0 20px;
+    border: solid #ddd;
+    border-width: 1px 1px 2px;
+    background-color: #eee;
+}
+.PayofTable .PayofOne{
+    min-height: 24px;
+    margin: 15px 20px 5px;
+}
+.PayofOne .RegretOption{
+    float: left;
+    line-height: 24px;
+}
+.PayofOne .th-chk{
+    float: left;
+    width: 55px;
+    padding-left: 6px;
+}
+.PayofOne .th-chk input{
+    vertical-align: middle;
+}
+.PayofOne .RegretOption a{
+    float: left;
+    margin-right: 15px;
+}
+.PayofOne .RegretOption a:hover{
+    color: red;
+}
+.PayofTable .PayofSan{
+    height: 0px;
+    overflow: hidden;
+    margin: 0 20px;
+    border-top: 1px solid #fff;
+}
+.PayofTable .PayofFou{
+    width: 938px;
+    height: 65px;
+}
+.PayofFou .Accountsbox{
+    float: right;
+    width: 147px;
+    height: 43px;
+    margin-left: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../images/shopping-submit.png) 0 0 no-repeat;
+}
+.PayofFou .Accounts{
+    float: left;
+    width: 143px;
+    height: 38px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 50em;
+    overflow: hidden;
+    opacity: 0;
+    vertical-align: middle;
+}
+.PayofFou .AccountsNum{
+    float: right;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+.PayofFou .AccountsNum .cue{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -5px;
+    font-style: normal;
+    color: #666;
+}
+.PayofFou .AccountsNum .pay{
+    padding: 0 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    color: #e5004f;
+    vertical-align: middle;
+}
+
+/*结算金额栏固定时候的样式*/
+.fix{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -469px;
+    border: solid #ddd;
+    border-width: 1px 1px 2px;
+    background-color: #eee;
+    z-index: 100;
+
+}

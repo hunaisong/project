@@ -1,0 +1,41 @@
+/*重置样式*/
+html{color:#666;background-color:#eee}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0;_table-layout:fixed}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,th,var,optgroup{font-style:normal;font-weight:400}
+li{list-style:none}
+caption{text-align:left}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}sub{vertical-align:text-bottom}
+input,textarea,select,button,option{font-family:inherit;font-size:inherit;font-weight:inherit}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button{font-size:100%}
+legend{color:#000}
+q:before,q:after{content:''}
+
+
+
+
+body{font-family:"微软雅黑";
+    font-size:12px;
+    margin:0;
+    padding:0;
+    border:none;
+}
+html,div,p,span,form,legend,fieldset,h1,h2,h3,h4,h5,h6,hr,ul,li,ol,dl,dd,dt,br{
+    margin:0;padding:0;
+    border:none;
+}
+button,img,a,input,textarea,th,td,table,label{
+    margin:0;padding:0;
+}
+a{text-decoration:none;color:#000}
+ul,li,ol{list-style:none}
+img{border:none}
+.clear{height:0;overflow:hidden;font-size:0;clear:both}
+body,html{height:100%;}
+
+
+
+
+

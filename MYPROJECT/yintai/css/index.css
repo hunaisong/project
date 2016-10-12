@@ -1,0 +1,139 @@
+/*banner部分*/
+#banner{width:100%;height: 470px;border-top: 1px solid #000}
+.banner-wrap{width: 100%;height:470px;overflow:hidden;position: relative}
+.pic-list,.pic-list li{position: absolute;left: 0;top: 0;width: 1920px;height: auto}
+.product-list{width: 1200px;height:0;margin: 0 auto;position: relative;}
+.pic-list{left: 50%;margin-left: -960px;}
+.pic-list img{width: 1920px;height: 470px}
+.btn-list{position: absolute;bottom:20px;left:50%;width: 100%;margin-left: -75px;}
+.btn-list li{width: 30px;height: 8px;background: #211616;float: left;margin-left: 10px;cursor: pointer}
+.btn-list .active{background: #e5004f}
+/*左边浮动列表*/
+.product-cate{position: absolute;top: 0;left: 4px;width: 212px;background: #333;height: 470px;z-index: 9;}
+.product-cate li{border-bottom: 1px solid #515151;height: 46px;line-height: 46px;font-size: 15px;color: #fff;padding-left: 40px;position: relative}
+.product-cate li.active{background: red;}
+.product-cate li s{display:inline-block;width:18px;height:16px;background: url("../images/header-02.png") 0 0 no-repeat;position: absolute;left: 18px;top: 18px}
+.product-cate li a{color: #fff;font-size: 13px;}
+.product-cate li b{background: url("../images/header-02.png") -209px -111px no-repeat;display: inline-block;width: 8px;height: 14px;position: absolute;right: 14px;top: 21px;}
+
+/*二级菜单*/
+.product-list2{position:absolute;top:0;left:100%;width: 450px;height: 440px;border:1px solid #ccc;display: none;}
+.product-list2-left{width: 302px;height:440px;float:left;background: #272625;}
+.product-list2-left .list{width: 268px;border-bottom: 1px dotted #ccc;padding: 5px;}
+.product-list2-left .list h5{height: 14px;line-height: 14px}
+.product-list2-right{float: right;width: 148px;height: 440px;background: #020202;}
+.product-list2-right .til{height: 19px;border-bottom: 1px dotted #ccc;line-height: 19px;text-align: center;}
+.product-list2-right a{display: block;height: 19px;line-height: 19px;text-align: center;margin-bottom: 5px;}
+.product-cate .item1 s{background-position: 0 -111px;}
+.product-cate .item2 s{background-position:-19px -111px}
+.product-cate .item3 s{background-position:-34px -111px}
+.product-cate .item4 s{background-position:-52px -111px}
+.product-cate .item5 s{background-position:-68px -111px}
+.product-cate .item6 s{background-position:-85px -111px}
+.product-cate .item7 s{background-position:-102px -111px}
+.product-cate .item8 s{background-position:-119px -111px}
+.product-cate .item9 s{background-position:-136px -111px}
+.product-cate .item10 s{background-position:-153px -111px}
+.right-pic{position: absolute;top: 0;right:0;z-index: 10}
+/*左右按钮部分*/
+.product-list .next,.prev{display: none}
+.next{position: absolute;top: 230px;right: 200px;width: 30px;height: 63px;background: #999;color:#fff;z-index: 999;text-align: center;font-size: 40px;}
+.prev{position: absolute;top: 230px;left: 215px;width: 30px;height: 63px;background: #999;color:#fff;z-index: 999;text-align: center;font-size: 40px;}
+
+
+/*品牌区域*/
+/*品牌区域1*/
+.brand-content{height: 325px;padding-top: 30px;width: 1190px;margin: 0 auto;}
+.brand-contentLeft{width: 910px;float: left;overflow: hidden;}
+.brand-contentLeft img{
+    display: block;
+    margin: 30px auto;
+}
+.brand-contentRight{float: right;width: 270px;height: 324px;overflow: hidden;margin-top: 16px}
+.brand-switch{width: 910px;}
+.brand-switch li{float:left;width: 303px;height: 47px;background:url("../images/bg0.png") repeat-x bottom;position: relative;}
+.brand-switch li:hover{background: url("../images/bg.png") bottom no-repeat;font-weight: bold;}
+.brand-switch li a{display:block;width:303px;height: 47px;text-align:center;font-size: 16px;line-height:47px;color: #000;}
+.content .temai{padding-top: 10px;width: 940px;height: 262px;}
+.content .temai ul li{float: left;border:1px solid #eee;width:220px;height:260px;margin-right: 7px;}
+.content .haohuo{padding-top: 10px;width: 940px;height: 262px;display: none}
+.content .haohuo ul li{float: left;border:1px solid #eee;width:220px;height:260px;margin-right: 7px;}
+.content .zhuanxiang{padding-top: 10px;width: 940px;height: 262px;display: none}
+.content .zhuanxiang ul li{float: left;border:1px solid #eee;width:220px;height:260px;margin-right: 7px;}
+/*品牌banner*/
+.banner0{width:1190px;height: 80px;margin: 0 auto }
+/*品牌区域2*/
+.brand2{width: 1190px;margin: 0 auto}
+.title{width: 345px;height:40px;margin-top: 40px;}
+.title h1{font-size: 25px;line-height: 40px;}
+.title h1 span{color:red}
+.title h1 b{font-size: 13px;}
+.brand_2{width: 1190px;margin: 0 auto;border: 1px solid #ccc;height: 578px;padding: 10px;}
+.pic-left{width:340px;height: 555px;float: left}
+.card{width: 815px;height: auto;float: left;margin-left: 10px;}
+.card-ul{width: 815px;border-bottom:1px solid #000;height: 38px;}
+.card-ul li{float: left;margin-left: 48px;}
+.card-ul li a{font-size: 13px;line-height: 38px;}
+.card-ul li a:hover{font-weight: bold}
+.product-list1{width: 815px;height: 518px;padding-top: 3px}
+.product-list1  .item1 li{float: left;margin: 1px}
+.product-list1  .item1 li a:hover{opacity: 0.7}
+.product-list1  .item2 li{float: left;margin: 1px;width:198px;height: 252px;border: 1px solid #ccc;}
+.product-list1  .item2 li a:hover{opacity: 0.7}
+.product-list1  .item2{display: none}
+.item2 img{
+    display: block;
+    margin: 10px auto;
+}
+
+/*品牌区域3*/
+/*品牌区域3左部分*/
+.brand3{width: 1190px;height:450px;margin: 10px auto;}
+.brand3-wrap{width: 1190px;margin: 0 auto}
+.brand3-left{width: 233px;height: 373px;border: 1px solid #ccc;float: left;}
+.fenlei-ul{width: 214px;height: 146px;margin: 10px 0 26px 8px}
+.fenlei-ul li a{float: left;width: 65px;height: 35px;border: 1px solid #ccc;line-height: 35px;text-align: center;margin: 2px}
+.fenlei-ul li a:hover{background: red;color: #fff;}
+.fenlei-brand{width: 203px;height: 144px;border-top: 1px dashed #ccc;background:#f2f2f2;margin:10px 0 0 14px;position: relative;}
+.brand-item{width: 167px;height: 110px;margin: 0 auto;}
+.brand-item ul{margin-top: 20px}
+.brand-item li{float: left;margin:1px}
+.brand-item .bl{display: inline-block;width: 5px;height:10px;background: url("../images/arrow_08.png") no-repeat;position: absolute;top: 50%;left: 10px}
+.brand-item .br{display: inline-block;width: 5px;height:10px;background: url("../images/arrow_11.png") no-repeat;position: absolute;top: 50%;right: 10px}
+
+/*品牌区域3中间部分，轮播图部分*/
+.pic-middle{width: 390px;height: 370px;float: left;background: red;margin-left: 8px;}
+.pic-middle .pic-list{width: 390px;height: 370px}
+
+/*品牌区域3右部分*/
+.brand3-right{width: 553px;height: 376px;background: #0a243b;float: left;margin-left: 3px;}
+.brand3-right ul li{width: 270px;height: 180px;border: 1px solid #ccc;float: left;margin: 2px}
+
+
+
+
+/*底部推荐区域*/
+.tuijian{width: 1190px;height:173px;margin:10px auto;border: 1px solid #ccc;}
+.tuijian .tuijian-pic{width: 396px;height: 173px;float: left}
+.tuijian .tuijian-pic img{width: 100%;height: 100%;}
+
+/*楼层区域*/
+.floor-nav{width:50px;height:545px;position:fixed;left:50%;bottom:20px;margin-left:580px;}
+.floor-nav a{display:block;width:30px;height:30px;margin-bottom:5px;padding: 10px 10px 10px;background: #ccc;background:url("../images/floor_nav.png") 0 0 no-repeat;color:#ececec}
+.floor-nav .nv{background-position:0 -55px}
+.floor-nav .nv{background-position:0 -55px}
+.floor-nav .nan{background-position:0 -110px}
+.floor-nav .xiezi{background-position:0 -165px}
+.floor-nav .xb{background-position:0 -220px}
+.floor-nav .mr{background-position:0 -275px}
+.floor-nav .yd{background-position:0 -330px}
+.floor-nav .ny{background-position:0 -385px}
+.floor-nav .hz{background-position:0 -440px}
+.floor-nav .fh{background-position:0 -495px}
+.floor-nav a:hover{background: red;color: #fff;}
+.floor-nav .active a{background-image:none;line-height:18px;background: red; color: #fff;font-size:14px;text-align: center;}
+
+
+
+
+
